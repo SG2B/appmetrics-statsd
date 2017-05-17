@@ -16,10 +16,10 @@
     "performance",
     "monitoring"
   ],
-  "author": "Chris Bailey <baileyc@uk.ibm.com>",
+  "contributors": ["Chris Bailey <baileyc@uk.ibm.com>", "Julien Deruere <julien@sg2b.com>"],
   "repository" : {
     "type" : "git",
-    "url" : "git://github.com/RuntimeTools/appmetrics-statsd.git"
+    "url" : "git://github.com:SG2B/appmetrics-statsd.git"
   },
   "license": "Apache-2.0"
 }

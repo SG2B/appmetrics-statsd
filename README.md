@@ -138,7 +138,7 @@ The Node Application Metrics to StatsD Connector is licensed using an Apache v2.
 
 #### Version History
 
-1.1.3 Fix documentation
+1.1.4 Fix documentation
 1.1.2 Fix broken link
 1.1.1 Upgrade appmetrics version and migrate to statsd-client package
 1.0.1 Add support for Event Loop, HTTP, Socketio, MongoDB, MySQL, Leveldown, Redis, Memcached, POstgreSQL, MQTT and MQLight  

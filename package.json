@@ -19,7 +19,7 @@
   "contributors": ["Chris Bailey <baileyc@uk.ibm.com>", "Julien Deruere <julien@sg2b.com>"],
   "repository" : {
     "type" : "git",
-    "url" : "git://github.com:SG2B/appmetrics-statsd.git"
+    "url" : "github.com/SG2B/appmetrics-statsd"
   },
   "license": "Apache-2.0"
 }

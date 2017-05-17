@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SG2B/appmetrics-statsd"
+    "url": "https://github.com/SG2B/appmetrics-statsd-client"
   },
   "license": "Apache-2.0"
 }

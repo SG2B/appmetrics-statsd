@@ -7,14 +7,14 @@ A connector that collects data using 'appmetrics' and sends it to a configured S
 ### Installation
 The StatsD Connector for Node Application Metrics can be installed via `npm`:
 ```sh
-$ npm install appmetrics-statsd
+$ npm install appmetrics-statsd-client
 ```
 
 ### Configuring the StatsD Connector for Node Application Metrics 
 
 The connector can be used in your application by requiring it as the first line of your application:
 ```sh
-var appstatsd = require('appmetrics-statsd').StatsD();
+var appstatsd = require('appmetrics-statsd-client').StatsD();
 ```
 Configuration of the connection to the StatsD server is possible by passing parameters to the `StatsD()` function. These are passed directly though to the `StatsD` constructor in the `node-statsd` module. Information for that module is available here:
 https://www.npmjs.com/package/node-statsd
@@ -22,7 +22,7 @@ https://www.npmjs.com/package/node-statsd
 Additional data may also be sent to StatsD using the standard `node-statsd` module Client APIs, eg.
 
 ```sh
-var statsd = require('appmetrics-statsd').StatsD();
+var statsd = require('appmetrics-statsd-client').StatsD();
 
 statsd.gauge('gauge', 10.4);
 ```
@@ -134,9 +134,12 @@ The connector sends the following data values to StatsD from Node Application Me
 The Node Application Metrics to StatsD Connector is licensed using an Apache v2.0 License.
 
 ### Version
-1.0.1
+1.1.3
 
 #### Version History
 
+1.1.3 Fix documentation
+1.1.2 Fix broken link
+1.1.1 Upgrade appmetrics version and migrate to statsd-client package
 1.0.1 Add support for Event Loop, HTTP, Socketio, MongoDB, MySQL, Leveldown, Redis, Memcached, POstgreSQL, MQTT and MQLight  
 1.0.0 Initial release  
